@@ -1,0 +1,87 @@
+[
+  {
+    "asset": "assets/phone-1.webp",
+    "repository": "https://github.com/BillalA123/Custom-Phone",
+    "source": "Images/IMG_6684.jpeg"
+  },
+  {
+    "asset": "assets/phone-2.webp",
+    "repository": "https://github.com/BillalA123/Custom-Phone",
+    "source": "Images/IMG_6678.jpeg"
+  },
+  {
+    "asset": "assets/radar-1.webp",
+    "repository": "https://github.com/BillalA123/Radar-PCB",
+    "source": "Images/Screenshot 2026-09-13 185550.png"
+  },
+  {
+    "asset": "assets/radar-2.webp",
+    "repository": "https://github.com/BillalA123/Radar-PCB",
+    "source": "Images/Job1 (10)-1.png"
+  },
+  {
+    "asset": "assets/nordic-1.webp",
+    "repository": "https://github.com/BillalA123/Nordic-Chip-IoT-PCB",
+    "source": "Images/Nordic Horizontal.jpeg"
+  },
+  {
+    "asset": "assets/nordic-2.webp",
+    "repository": "https://github.com/BillalA123/Nordic-Chip-IoT-PCB",
+    "source": "Images/Schematic.png"
+  },
+  {
+    "asset": "assets/rp2040-1.webp",
+    "repository": "https://github.com/BillalA123/RP2040-and-ESP32",
+    "source": "Images/PCB Layout.png"
+  },
+  {
+    "asset": "assets/rp2040-2.webp",
+    "repository": "https://github.com/BillalA123/RP2040-and-ESP32",
+    "source": "Images/Schematic.png"
+  },
+  {
+    "asset": "assets/motor-1.webp",
+    "repository": "https://github.com/BillalA123/Motor-and-Bluetooth-Controller",
+    "source": "Images/KiP Controller+Motor handheld.jpeg"
+  },
+  {
+    "asset": "assets/motor-2.webp",
+    "repository": "https://github.com/BillalA123/Motor-and-Bluetooth-Controller",
+    "source": "Images/PCB 3D Layout.png"
+  },
+  {
+    "asset": "assets/motor-3.webp",
+    "repository": "https://github.com/BillalA123/Motor-and-Bluetooth-Controller",
+    "source": "Images/schematic.png"
+  },
+  {
+    "asset": "assets/flex-1.webp",
+    "repository": "https://github.com/BillalA123/Flexible-Controller-PCB",
+    "source": "Images/Screenshot 2026-09-13 191312.png"
+  },
+  {
+    "asset": "assets/flex-2.webp",
+    "repository": "https://github.com/BillalA123/Flexible-Controller-PCB",
+    "source": "Images/Job2 (3)-1.png"
+  },
+  {
+    "asset": "assets/dac-1.webp",
+    "repository": "https://github.com/BillalA123/DAC-Test-Board",
+    "source": "Images/PCB 3D Layout.png"
+  },
+  {
+    "asset": "assets/dac-2.webp",
+    "repository": "https://github.com/BillalA123/DAC-Test-Board",
+    "source": "Images/Schematic.png"
+  },
+  {
+    "asset": "assets/audio-1.webp",
+    "repository": "https://github.com/BillalA123/Audio-Amp-Board",
+    "source": "Images/Layout.png"
+  },
+  {
+    "asset": "assets/audio-2.webp",
+    "repository": "https://github.com/BillalA123/Audio-Amp-Board",
+    "source": "Images/Schematic Audio.png"
+  }
+]
