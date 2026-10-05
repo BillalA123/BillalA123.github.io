@@ -1,4 +1,4 @@
-# Billal Abulfotuh — Engineering Portfolio
+# Billal Abulfotuh: Engineering Portfolio
 
 Static electrical engineering portfolio for https://billala123.github.io/.
 
