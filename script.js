@@ -15,13 +15,10 @@ for (const [id, summary] of Object.entries(projectSummaries)) {
   const description = project?.querySelector('.project-lead, .card-copy > p:not(.eyebrow)');
   const repositoryLink = project?.querySelector('.feature-copy > .button, .card-copy > .text-link');
   if (description) description.textContent = summary;
-  if (repositoryLink) repositoryLink.textContent = 'Check out GitHub for more details';
+  if (repositoryLink) repositoryLink.textContent = 'View Project Details';
 }
 
 // Keep the selected projects together in the featured grid.
 const nordicProject = document.getElementById('nordic');
 const featuredSection = document.querySelector('.featured-section');
 if (nordicProject && featuredSection) featuredSection.appendChild(nordicProject);
-
-const year = document.getElementById('year');
-if (year) year.textContent = String(new Date().getFullYear());
