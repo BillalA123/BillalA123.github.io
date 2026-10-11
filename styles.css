@@ -20,9 +20,8 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #697b94; outline-off
 
 .site-header { position: sticky; top: 0; z-index: 20; background: var(--soft); }
 .header-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 90px; }
-.brand, nav, .header-mark, h1, h2, h3, .eyebrow, .button, .text-link, .hero-actions, .footer-inner, summary, figcaption, .project-status { font-family: Arial, Helvetica, sans-serif; }
+.brand, nav, h1, h2, h3, .eyebrow, .button, .text-link, .hero-actions, .footer-inner, summary, figcaption, .project-status { font-family: Arial, Helvetica, sans-serif; }
 .brand { position: relative; z-index: 1; font-size: 17px; font-weight: 700; text-decoration: none; }
-.header-mark { position: absolute; left: 50%; top: 22px; display: grid; place-items: center; width: 88px; height: 88px; transform: translateX(-50%); border: 3px solid white; border-radius: 50%; background: #404040; box-shadow: 0 2px 4px #0002; color: white; font-size: 22px; font-weight: 700; letter-spacing: -.08em; }
 nav { position: relative; z-index: 1; display: flex; gap: 30px; align-items: center; }
 nav a { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-decoration: none; text-transform: uppercase; }
 nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underline; }
@@ -41,7 +40,7 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 .section-heading .eyebrow, .section-heading > p { display: none; }
 .featured-section { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 22px; }
 .featured-section > .section-heading { grid-column: 1 / -1; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-bottom: -10px; }
-.feature, .project-card { display: flex; min-width: 0; min-height: 0; flex-direction: column; overflow: hidden; border-radius: 10px; background: white; box-shadow: 0 2px 8px #00000012; }
+.feature, .project-card { display: flex; min-width: 0; min-height: 0; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 3px; background: white; }
 .feature-media { display: contents; }
 .feature-media > figure { order: -1; }
 .feature-media > figure, .card-image { background: #f2f2f2; }
@@ -67,7 +66,9 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 
 .hardware-section { background: white; }
 .hardware-section .section { padding-top: 18px; }
-.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 22px; }
+.project-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); align-items: start; gap: 22px; }
+.project-grid > .project-card { grid-column: span 2; }
+.project-grid > .project-card:nth-last-child(-n + 2) { grid-column: span 3; }
 .card-copy > .text-link { margin-top: 16px; padding-top: 0; }
 
 footer { background: var(--soft); }
@@ -77,8 +78,9 @@ footer { background: var(--soft); }
 .footer-links a:hover { text-decoration: underline; }
 
 @media (max-width: 800px) {
-  .header-mark { display: none; }
   .featured-section, .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .project-grid > .project-card,
+  .project-grid > .project-card:nth-last-child(-n + 2) { grid-column: auto; }
 }
 @media (max-width: 600px) {
   html { scroll-padding-top: 105px; }
