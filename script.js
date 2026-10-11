@@ -5,7 +5,7 @@ const projectSummaries = {
   nordic: 'Low power wireless IoT sensing PCB integrating a Nordic Bluetooth MCU, GNSS receiver, expandable capacitor energy storage, and micropower management.',
   rp2040: 'Dual microcontroller PCB integrating an RP2040 and ESP32-C3 with battery management, motor control, and power regulation.',
   motor: 'Motor control and handheld controller hardware developed for an educational robot at KiP Robotics. Both boards were combined into a single 2-in-1 PCB so they could be snapped apart after manufacturing. Resulting in a lower cost making it more accessible to students.',
-  flex: 'Handheld flex-PCB controller designed for an educational robotics platform at KiP Robotics.',
+  flex: 'Handheld flex-PCB controller designed for an educational robot at KiP Robotics, featuring Bluetooth wireless communication',
   dac: 'Test board designed to independently control and evaluate 32 varactor diode channels using two 16-channel DACs.',
   audio: 'Analog amplifier PCB with a 20X voltage gain (26 dB) per channel. Features adjustable volume control, RC filtering network, and power supply filtering. Designed using Cadence OrCAD and Allegro.'
 };
