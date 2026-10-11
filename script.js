@@ -4,7 +4,7 @@ const projectSummaries = {
   radar: 'Handheld 2.4 GHz radar system capable of measuring distance, velocity, and Synthetic Aperture Radar (SAR) imaging.',
   nordic: 'Low power wireless IoT sensing PCB integrating a Nordic Bluetooth MCU, GNSS receiver, expandable capacitor energy storage, and micropower management.',
   rp2040: 'Dual microcontroller PCB integrating an RP2040 and ESP32-C3 with battery management, motor control, and power regulation.',
-  motor: 'Motor control and handheld controller hardware developed for an educational robot at KiP Robotics. Both boards were combined into a single 2-in-1 PCB so they could be fabricated together and snapped apart after manufacturing. This results in a lower cost to make it more accessible to students.',
+  motor: 'Motor control and handheld controller hardware developed for an educational robot at KiP Robotics. Both boards were combined into a single 2-in-1 PCB so they could be snapped apart after manufacturing. Resulting in a lower cost making it more accessible to students.',
   flex: 'Handheld flex-PCB controller designed for an educational robotics platform at KiP Robotics.',
   dac: 'Test board designed to independently control and evaluate 32 varactor diode channels using two 16-channel DACs.',
   audio: 'Audio amplifier PCB designed with Cadence OrCAD and Allegro. The project includes the schematic, PCB layout, source design files, and Gerber files for fabrication.'
