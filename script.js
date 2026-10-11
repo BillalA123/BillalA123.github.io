@@ -2,7 +2,7 @@
 const projectSummaries = {
   phone: 'Custom smartphone with 4G cellular, GPS, dual USB-C 3.0 ports, upgradeable storage and RAM, and a thermal camera.',
   radar: 'Handheld 2.4 GHz radar system capable of measuring distance, velocity, and Synthetic Aperture Radar (SAR) imaging.',
-  nordic: 'Low power wireless IoT sensing PCB integrating a Nordic nRF52805 Bluetooth MCU, GNSS receiver, expandable capacitor energy storage, and micropower power management.',
+  nordic: 'Low power wireless IoT sensing PCB integrating a Nordic Bluetooth MCU, GNSS receiver, expandable capacitor energy storage, and micropower management.',
   rp2040: 'Dual microcontroller PCB integrating an RP2040 and ESP32-C3 with battery management, motor control, and power regulation.',
   motor: 'Motor control and handheld controller hardware developed for an educational robot at KiP Robotics. Both boards were combined into a single 2-in-1 PCB so they could be fabricated together and snapped apart after manufacturing. This results in a lower cost to make it more accessible to students.',
   flex: 'Handheld flex-PCB controller designed for an educational robotics platform at KiP Robotics.',
