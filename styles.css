@@ -58,7 +58,7 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 .button { border: 0; border-radius: 0; padding: 0; min-height: 0; background: transparent; color: var(--ink); }
 .button:hover { background: transparent; color: #111; }
 .feature-media .gallery { order: 1; margin: 0 17px 16px; }
-.gallery { margin-top: 13px; border-top: 1px solid var(--line); }
+.gallery { display: none; }
 .gallery summary { padding: 10px 0 0; color: #777; cursor: pointer; font-size: 12px; }
 .gallery-content { padding-top: 10px; }
 .gallery-content figure { margin-bottom: 10px; }
