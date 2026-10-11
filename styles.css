@@ -20,7 +20,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #697b94; outline-off
 
 .site-header { position: sticky; top: 0; z-index: 20; background: var(--soft); }
 .header-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 90px; }
-.brand, nav, h1, h2, h3, .eyebrow, .button, .text-link, .hero-actions, .footer-inner, summary, figcaption, .project-status { font-family: Arial, Helvetica, sans-serif; }
+.brand, nav, h1, h2, h3, .eyebrow, .button, .text-link, .hero-actions, summary, figcaption, .project-status { font-family: Arial, Helvetica, sans-serif; }
 .brand { position: relative; z-index: 1; font-size: 17px; font-weight: 700; text-decoration: none; }
 nav { position: relative; z-index: 1; display: flex; gap: 30px; align-items: center; }
 nav a { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-decoration: none; text-transform: uppercase; }
@@ -67,12 +67,6 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 .hardware-section { background: white; }
 .hardware-section .section { padding-top: 18px; }
 .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-footer { background: var(--soft); }
-.footer-inner { display: flex; align-items: center; justify-content: center; min-height: 120px; color: #777; font-size: 13px; }
-.footer-links { display: flex; gap: 25px; color: var(--ink); font-size: 14px; font-weight: 700; }
-.footer-links a { text-decoration: none; }
-.footer-links a:hover { text-decoration: underline; }
-
 @media (max-width: 800px) {
   .featured-section, .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
