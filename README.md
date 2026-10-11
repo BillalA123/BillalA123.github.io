@@ -1,4 +1,4 @@
-# Billal A: Engineering Portfolio
+# Billal: Engineering Portfolio
 
 Static electrical engineering portfolio for https://billala123.github.io/.
 
