@@ -13,7 +13,9 @@ const projectSummaries = {
 for (const [id, summary] of Object.entries(projectSummaries)) {
   const project = document.getElementById(id);
   const description = project?.querySelector('.project-lead, .card-copy > p:not(.eyebrow)');
+  const repositoryLink = project?.querySelector('.feature-copy > .button, .card-copy > .text-link');
   if (description) description.textContent = summary;
+  if (repositoryLink) repositoryLink.textContent = 'Check out GitHub for more details';
 }
 
 // Keep the selected projects together in the featured grid.

@@ -39,9 +39,9 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 .section-heading { margin-bottom: 12px; }
 .section-heading h2 { font-size: 13px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; color: #858585; }
 .section-heading .eyebrow, .section-heading > p { display: none; }
-.featured-section { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.featured-section { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 22px; }
 .featured-section > .section-heading { grid-column: 1 / -1; border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-bottom: -10px; }
-.feature, .project-card { display: flex; min-width: 0; min-height: 470px; flex-direction: column; overflow: hidden; border-radius: 10px; background: white; box-shadow: 0 2px 8px #00000012; }
+.feature, .project-card { display: flex; min-width: 0; min-height: 0; flex-direction: column; overflow: hidden; border-radius: 10px; background: white; box-shadow: 0 2px 8px #00000012; }
 .feature-media { display: contents; }
 .feature-media > figure { order: -1; }
 .feature-media > figure, .card-image { background: #f2f2f2; }
@@ -67,8 +67,8 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 
 .hardware-section { background: white; }
 .hardware-section .section { padding-top: 18px; }
-.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
-.card-copy > .text-link { margin-top: auto; padding-top: 15px; }
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 22px; }
+.card-copy > .text-link { margin-top: 16px; padding-top: 0; }
 
 footer { background: var(--soft); }
 .footer-inner { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; min-height: 180px; color: #777; font-size: 13px; }
@@ -79,10 +79,6 @@ footer { background: var(--soft); }
 @media (max-width: 800px) {
   .header-mark { display: none; }
   .featured-section, .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .feature, .project-card { min-height: 495px; }
-}
-@media (max-width: 700px) {
-  .feature, .project-card { min-height: 560px; }
 }
 @media (max-width: 600px) {
   html { scroll-padding-top: 105px; }
@@ -95,10 +91,6 @@ footer { background: var(--soft); }
   .section { padding-block: 20px 34px; }
   .featured-section, .project-grid { grid-template-columns: 1fr; }
   .feature-media > figure img, .card-image img { height: 220px; }
-  .feature, .project-card { min-height: 525px; }
-}
-@media (max-width: 360px) {
-  .feature, .project-card { min-height: 545px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print { .site-header { position: static; } .feature, .project-card { break-inside: avoid; } }
