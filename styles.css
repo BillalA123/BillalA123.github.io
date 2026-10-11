@@ -45,8 +45,7 @@ nav a:hover, .hero-actions a:hover, .text-link:hover { text-decoration: underlin
 .feature-media { display: contents; }
 .feature-media > figure { order: -1; }
 .feature-media > figure, .card-image { background: #f2f2f2; }
-.feature-media > figure img, .card-image img { width: 100%; height: 215px; object-fit: cover; object-position: center; }
-.feature-media > figure img[src*="phone"], .card-image img[src*="flex"], .card-image img[src*="dac"], .card-image img[src*="audio"] { object-fit: contain; }
+.feature-media > figure img, .card-image img { width: 100%; height: 215px; object-fit: contain; object-position: center; }
 .feature-media figcaption, .card-image figcaption { display: none; }
 .feature-copy, .card-copy { display: flex; flex: 1; flex-direction: column; padding: 17px 17px 19px; }
 .feature h3, .card-copy h3 { font-size: 20px; line-height: 1.2; font-weight: 700; }
