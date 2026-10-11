@@ -7,7 +7,7 @@ const projectSummaries = {
   motor: 'Motor control and handheld controller hardware developed for an educational robot at KiP Robotics. Both boards were combined into a single 2-in-1 PCB so they could be snapped apart after manufacturing. Resulting in a lower cost making it more accessible to students.',
   flex: 'Handheld flex-PCB controller designed for an educational robotics platform at KiP Robotics.',
   dac: 'Test board designed to independently control and evaluate 32 varactor diode channels using two 16-channel DACs.',
-  audio: 'Audio amplifier PCB designed with Cadence OrCAD and Allegro. The project includes the schematic, PCB layout, source design files, and Gerber files for fabrication.'
+  audio: 'Analog amplifier PCB with a 20X voltage gain (26 dB) per channel. Features adjustable volume control, RC filtering network, and power supply filtering. Designed using Cadence OrCAD and Allegro.'
 };
 
 for (const [id, summary] of Object.entries(projectSummaries)) {
